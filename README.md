@@ -11,8 +11,8 @@ The goal is to **forecast laying rate and mortality rate** based on mobility pat
 - **Edges**: Pairwise interactions / mobility-based contacts between hens.
 - **Edge Attributes**: Interaction strength, frequency, or temporal features.
 - **Targets**: 
-  - 🥚 **Laying rate**
-  - ☠️ **Mortality rate**
+  - **Laying rate**
+  - **Mortality rate**
 
 We implement a **custom edge-aware Graph Attention Network (GAT)** to capture both node and edge features for improved prediction accuracy.
 
